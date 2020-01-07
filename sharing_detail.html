@@ -14,21 +14,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;margin-bottom: 40px;">
-        <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="#" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: 0px;"></a>
-            <button
-                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse col-9" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: #ffffff;">Top scholarship</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Favourite</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(255,255,255);">About us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-left: 40px;color: #ffffff;">Log in</a></li>
-                    </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: 0px;"></a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse col-9" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-left: 40px;color: #ffffff;">Log in</a></li>
+                </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
         </div>
     </nav>
     <header class="masthead" style="background-image:url('assets/img/post-bg.jpg');">
-        <div class="overlay"></div>
+        <ul class="nav nav-tabs" style="position: absolute;width: 100%;top: 0;left: 0;">
+            <li class="nav-item"><a class="nav-link active" href="index.html" style="background-color: rgba(0,0,0,0.2);"><i class="fa fa-home" style="color: rgb(255,255,255);"></i></a>
+                <div></div>
+            </li>
+            <li class="nav-item"><a class="nav-link nav-before" href="sharing_list.html" style="padding-right: 0px;color: rgb(255,255,255);">List of sharing</a></li>
+            <li class="nav-item"><a class="nav-link nav-before" href="#" style="color: rgb(255,255,255);">Motivation topic</a></li>
+        </ul>
+        <div style="position: absolute;background-color: #212529;height: 100%;width: 100%;top: 0;left: 0;opacity: 0.30;"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
@@ -68,6 +74,51 @@
             </div>
         </div>
     </article>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Get started</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Home</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Sign up</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">About us</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Company Information</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Contact us</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Support</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">FAQ</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Help desk</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Legal</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Terms of Service</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Terms of Use</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="footer-copyright">
+                    <p class="footer-copyright">© 2020 Copyright</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
