@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
@@ -15,24 +16,27 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;">
-        <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: 0px;"></a>
-            <button
-                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse col-9" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-left: 40px;color: #ffffff;">Log in</a></li>
-                    </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
+        <div class="container"><a class="navbar-brand col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;margin-left: 60px;"></a><button data-toggle="collapse"
+                data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;/*max-width: 500px;*/width: 100%;">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;width: 30%;/*max-width: 500px;*/">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #ffffff;">Log in</a></li>
+                </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
         </div>
     </nav>
     <section class="showcase" style="background-color: #b0e5f8;">
         <div class="container-fluid d-flex p-0">
             <div class="col" style="margin-top: 20px;">
-                <div class="row search-bar" style="margin: auto;max-width: 400px;background-color: #ffffff;border-radius: 30px;height: 52px;">
+                <div class="row search-bar" style="margin: auto;max-width: 700px;background-color: #ffffff;border-radius: 30px;height: 52px;">
                     <div class="col"><input type="text" style="border-radius: 20px;box-shadow: transparent;border-color: transparent;"></div>
-                    <div class="col col-2" style="align-items: center;display: flex;"><button class="btn btn-primary btn-search" type="button" style="background-color: transparent;border-color: transparent;"><i class="fa fa-search"></i></button></div>
+                    <div class="col col-2" style="align-items: center;justify-content: center;display: flex;"><button class="btn btn-primary btn-search" type="button" style="background-color: transparent;border-color: transparent;"><i class="fa fa-search"></i></button></div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-center" style="margin: 10px;">
@@ -145,31 +149,45 @@
             </div>
         </div>
     </section>
-    <footer class="d-flex justify-content-center" style="background-color: #006c84;">
-        <div class="container" style="margin: 0px;padding: 0px;width: 1193px;background-color: #096d83;color: rgb(244,240,240);">
-            <div class="row" style="height: 238px;margin: 0px;">
-                <div class="col" style="padding: -0px;margin: 0px;">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center"><strong style="font-size: 23px;">Đối tác của chúng tôi</strong></div>
-                    </div>
-                    <div class="row" style="height: 156px;">
-                        <div class="col d-flex justify-content-center align-self-center"><img src="assets/img/ietls.jpg" style="width: 100px;height: 100px;"></div>
-                        <div class="col d-flex justify-content-center align-self-center"><img src="assets/img/ietls.jpg" style="width: 100px;height: 100px;"></div>
-                        <div class="col d-flex justify-content-center align-self-center"><img src="assets/img/ietls.jpg" style="width: 100px;height: 100px;"></div>
-                        <div class="col d-flex justify-content-center align-self-center"><img src="assets/img/ietls.jpg" style="width: 100px;height: 100px;"></div>
-                    </div>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Get started</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Home</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Sign up</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Downloads</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row" style="margin: 0px;">
-                <div class="col d-flex justify-content-end align-self-center"><strong style="font-size: 25px;">Kết nối với chúng tôi</strong></div>
-                <div class="col d-flex justify-content-center align-self-center col-2">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a></li>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">About us</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Company Information</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Contact us</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Support</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">FAQ</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Help desk</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color: #FFFFFF;">Legal</h5>
+                    <ul>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Terms of Service</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Terms of Use</a></li>
+                        <li style="color: #ffffff;"><a href="#" style="color: #ffffff;">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
+        </div>
+        <div style="background-color: #006b85;padding-top: 3px;padding-bottom: 3px;text-align: center;margin-top: 50px;border: 1px solid #ededed;">
+            <p class="footer-copyright">© 2020 Copyright</p>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>

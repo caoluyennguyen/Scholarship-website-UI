@@ -177,7 +177,7 @@ div .container-fluid {
 
 .div-application::before {
   right: 50%;
-  left: -50%;
+  left: 0%;
   transform: skewY(-4deg);
   content: "";
   position: absolute;
@@ -269,5 +269,50 @@ div .container-fluid {
 
 .nav-item {
   padding-left: 5px;
+}
+
+.underlined {
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 15px;
+  color: #5B6270;
+  display: block;
+  box-sizing: border-box;
+}
+
+.underlined::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 30px;
+  background: #D9DBE0;
+  border-radius: 3px;
+  height: 2px;
+}
+
+.fast-fact-item {
+  position: relative;
+  padding: 0 35px 0 50px;
+  box-sizing: border-box;
+}
+
+.fast-fact-button {
+  min-width: 230px;
+  text-align: right;
+  padding: 20px 20px 20px 0;
+  box-sizing: border-box;
+}
+
+.fast-fact-content {
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  /*flex-direction: row;*/
+  width: 100%;
+  background: #FFF;
+  border-radius: 0 0 3px 3px;
+  position: relative;
 }
 

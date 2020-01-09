@@ -8,25 +8,37 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;margin-bottom: 40px;">
-        <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: 0px;"></a>
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;">
+        <div class="container-fluid"><a class="navbar-brand col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: auto;overflow: hidden;display: block;top: 0;left: 0;z-index: 10;"></a>
             <button
-                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse col-9" id="navcol-1">
+                data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;/*max-width: 500px;*/width: 100%;">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: #ffffff;">Top scholarship</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Favourite</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(255,255,255);">About us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-left: 40px;color: #ffffff;">Log in</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;width: 20%;/*max-width: 500px;*/">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #ffffff;">Log in</a></li>
                     </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
         </div>
     </nav>
+    <ul class="nav nav-tabs" style="background-color: #006c84;border-top: 1px solid #dee2e6;">
+        <li class="nav-item"><a class="nav-link active" href="index.html" style="background-color: rgba(0,0,0,0.2);"><i class="fa fa-home" style="color: rgb(255,255,255);"></i></a>
+            <div></div>
+        </li>
+        <li class="nav-item"><a class="nav-link nav-before" href="#" style="padding-right: 0px;color: rgb(255,255,255);">Company side edit</a></li>
+        <li class="nav-item"></li>
+    </ul>
     <header class="masthead" style="background-image: url(&quot;assets/img/building.jpg&quot;);">
         <div class="overlay"></div>
         <div class="container">
