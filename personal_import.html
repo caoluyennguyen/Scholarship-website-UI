@@ -16,14 +16,14 @@
 
 <body style="background-color: #004a65;">
     <nav class="navbar navbar-light navbar-expand-md" style="background-color: #00a1c9;">
-        <div class="container"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="#" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: auto;overflow: hidden;display: block;top: 0;left: 0;z-index: 10;"></a>
+        <div class="container"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: auto;overflow: hidden;display: block;top: 0;left: 0;z-index: 10;"></a>
             <button
                 data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;/*max-width: 500px;*/width: 100%;">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);font-weight: bold;">Favourite</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);font-weight: bold;">Your porfolio</a></li>
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;width: 30%;/*max-width: 500px;*/">
@@ -32,13 +32,15 @@
                     </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
         </div>
     </nav>
-    <ul class="nav nav-tabs">
-        <li class="nav-item"><a class="nav-link active" href="index.html" style="background-color: rgba(0,0,0,0.2);"><i class="fa fa-home" style="color: rgb(255,255,255);"></i></a>
-            <div></div>
-        </li>
-        <li class="nav-item"><a class="nav-link nav-before" href="scholarship_list.html" style="padding-right: 0px;color: rgb(255,255,255);">Portfolio edit</a></li>
-        <li class="nav-item"></li>
-    </ul>
+    <div style="border-bottom: 1px solid #dee2e6;border-top: 1px solid #dee2e6;">
+        <ul class="nav nav-tabs" style="max-width: 1150px;margin: auto;border: none;">
+            <li class="nav-item"><a class="nav-link active" href="index.html" style="background-color: rgba(0,0,0,0.2);"><i class="fa fa-home" style="color: rgb(255,255,255);"></i></a>
+                <div></div>
+            </li>
+            <li class="nav-item"><a class="nav-link nav-before" href="scholarship_list.html" style="padding-right: 0px;color: rgb(255,255,255);">Portfolio edit</a></li>
+            <li class="nav-item"></li>
+        </ul>
+    </div>
     <section style="padding-bottom: 40px;">
         <div class="container" style="background-color: #ffffff;padding: 15mm;background-color: #fff;position: relative;max-width: 210mm;">
             <div style="padding: 5mm;margin: auto;">
@@ -46,16 +48,16 @@
                     <div class="col-auto" style="min-height: 4.2cm;vertical-align: top;padding: 1cm;"><img src="assets/img/testimonials-2.jpg" style="max-height: 120px;margin: auto;"></div>
                     <div class="col">
                         <div class="row">
-                            <div class="col" style="line-height: 14pt;vertical-align: middle;padding: 0px;margin: 5px 0px;"><input type="text" placeholder="Nguyễn Cao Luyện" style="width: auto;"></div>
+                            <div class="col" style="line-height: 14pt;vertical-align: middle;padding: 0px;margin: 5px 0px;"><input type="text" class="name-portfolio" placeholder="Enter your name here" style="font-size: 30px;"></div>
                         </div>
                         <div class="row">
                             <div class="col" style="padding: 0px;">
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Date of birth:</span><input type="text" placeholder="21/10/1998"></div>
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Gender:</span><input type="text" placeholder="Male"></div>
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Phone:</span><input type="text" placeholder="0793697415"></div>
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Email:</span><input type="text" placeholder="tihtk.98@gmail.com"></div>
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Address:</span><input type="text" placeholder="Ho Chi Minh, Vietnam"></div>
-                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Website:</span><input type="text" placeholder="www.linkedin.com/in/caoluyennguyen"></div>
+                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Date of birth:</span><input type="text" placeholder="dd/mm/yyyy"></div>
+                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Gender:</span><input type="text" placeholder="Male/Female/Others"></div>
+                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Phone:</span><input type="text" placeholder="Number only"></div>
+                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Email:</span><input type="text" placeholder="...@email.com"></div>
+                                <div style="margin: 5px 0px;width: 100%;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Address:</span><input type="text" placeholder="Number Street, City, Nation"></div>
+                                <div style="margin: 5px 0px;"><span style="display: inline-block;width: 2.8cm;font-weight: 700;font-size: 13.333px;">Website:</span><input type="text" placeholder="www..."></div>
                             </div>
                         </div>
                     </div>
@@ -67,18 +69,34 @@
                     </div>
                     <div style="margin: auto;padding-bottom: .8cm;max-width: 550px;">
                         <h3 style="color: #000;font-size: 12pt;line-height: 18pt;border-bottom: 1pt solid#333;text-transform: uppercase;font-weight: 700;margin-bottom: 6pt;margin: auto;"><span>EDUCATION</span></h3>
-                        <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: flex;width: 100%;">
-                            <div style="padding-right: 30px;line-height: 15pt;text-align: justify;font-size: 12px;"><input class="form-control-plaintext" type="text" value="Years" readonly=""><textarea placeholder="Sep 2016 - Now"></textarea></div>
-                            <div style="width: 100%;/*margin: auto;*/"><input class="form-control-plaintext" type="text" value="School" readonly="" style="/*width: 100%;*/"><input class="d-flex" type="text" style="font-weight: bold;width: 100%;" placeholder="University of information technology">
-                                <input
-                                    class="form-control-plaintext" type="text" value="Education details" readonly="" style="/*width: 100%;*/"><textarea style="width: 100%;" placeholder="Major: Software engineering "></textarea></div>
+                        <div class="row two-column-edit">
+                            <div class="col col-4">
+                                <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: inline-flex;/*width: 50%;*/">
+                                    <div style="padding-right: 30px;line-height: 15pt;text-align: justify;font-size: 12px;"><input class="form-control-plaintext" type="text" value="Years" readonly=""><textarea placeholder="Sep 2016 - Now"></textarea></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: inline-flex;width: 100%;">
+                                    <div style="width: 100%;"><input class="form-control-plaintext" type="text" value="School" readonly="" style="/*width: 100%;*/"><input class="d-flex" type="text" style="font-weight: bold;width: 100%;" placeholder="University of information technology">
+                                        <input
+                                            class="form-control-plaintext" type="text" value="Education details" readonly="" style="/*width: 100%;*/"><textarea placeholder="Major: Software engineering " style="width: 100%;"></textarea></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style="margin: auto;padding-bottom: .8cm;max-width: 550px;">
                         <h3 style="color: #000;font-size: 12pt;line-height: 18pt;border-bottom: 1pt solid#333;text-transform: uppercase;font-weight: 700;margin-bottom: 6pt;margin: auto;"><span>Honors &amp; Awards</span></h3>
-                        <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: inline-flex;width: 100%;">
-                            <div style="padding-right: 30px;"><input class="form-control-plaintext" type="text" value="Years" readonly=""><textarea placeholder="Sep 2016 - Now"></textarea></div>
-                            <div style="width: 100%;float: left;margin: auto;"><input class="form-control-plaintext" type="text" value="Awards title" readonly="" style="/*width: 100%;*/"><textarea style="width: 100%;" placeholder="Award title 1"></textarea></div>
+                        <div class="row two-column-edit">
+                            <div class="col col-4">
+                                <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: inline-flex;width: 100%;">
+                                    <div style="padding-right: 30px;"><input class="form-control-plaintext" type="text" value="Years" readonly=""><textarea placeholder="Sep 2016 - Now"></textarea></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div style="line-height: 15pt;padding-top: .2cm;font-size: 12px;display: inline-flex;width: 100%;">
+                                    <div style="width: 100%;float: left;margin: auto;"><input class="form-control-plaintext" type="text" value="Awards title" readonly="" style="/*width: 100%;*/"><textarea placeholder="Award title 1" style="width: 100%;"></textarea></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style="margin: auto;padding-bottom: .8cm;max-width: 550px;">

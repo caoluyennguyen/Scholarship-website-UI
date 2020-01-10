@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body style="background-color: #b0e5f8;">
-    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #096d83;">
+<body style="background-color: #004a65;">
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #00a1c9;">
         <div class="container"><a class="navbar-brand d-flex d-xl-flex mx-auto col-2" href="index.html" style="background-image: url(&quot;assets/img/scholarship.png&quot;);background-repeat: no-repeat;height: 57px;width: 176px;background-size: contain;padding: 0px;margin: auto;overflow: hidden;display: block;top: 0;left: 0;z-index: 10;"></a>
             <button
                 data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;/*max-width: 500px;*/width: 100%;">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="scholarship_list.html" style="color: #ffffff;">Top scholarship</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);">Favourite</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);">About us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="scholarship_list.html" style="color: rgb(255,255,255);font-weight: bold;">Favourite</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="personal.html" style="color: rgb(255,255,255);font-weight: bold;">Your portfolio</a></li>
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1" style="margin: auto;width: 30%;/*max-width: 500px;*/">
@@ -32,10 +32,18 @@
                     </ul><a class="btn btn-primary" role="button" href="#">Sign In</a></div>
         </div>
     </nav>
+    <div style="border-bottom: 1px solid #dee2e6;">
+        <ul class="nav nav-tabs" style="max-width: 1150px;margin: auto;border-bottom: none;">
+            <li class="nav-item"><a class="nav-link active" href="index.html" style="background-color: rgba(0,0,0,0.2);"><i class="fa fa-home" style="color: rgb(255,255,255);"></i></a>
+                <div></div>
+            </li>
+            <li class="nav-item"><a class="nav-link nav-before" href="#" style="padding-right: 0px;color: rgb(255,255,255);">Sharing page</a></li>
+        </ul>
+    </div>
     <div class="container">
-        <h1 class="text-center" style="margin-top: 50px;color: rgb(0,52,64);">SHARING EXPERIENCE</h1>
-        <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Lastest</button>
-            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Most viewed</a><a class="dropdown-item" role="presentation" href="#">Less viewed</a></div>
+        <h1 class="text-center" style="margin-top: 50px;color: rgb(255,255,255);font-size: 50px;">SHARING EXPERIENCE</h1>
+        <div class="dropdown"><button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="color: rgb(74,80,255);">Lastest</button>
+            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#" style="color: rgb(74,80,255);">Most viewed</a><a class="dropdown-item" role="presentation" href="#" style="color: rgb(74,80,255);">Less viewed</a></div>
         </div>
     </div>
     <div style="margin: 30px;">
@@ -133,6 +141,15 @@
             </nav>
         </div>
     </div>
+    <div style="border-top: 1px solid #006b85;background-color: #ffffff;">
+        <div class="d-flex justify-content-md-center align-items-md-center justify-content-lg-center justify-content-xl-center" style="max-width: 1150px;margin: auto;padding: 30px 0px;">
+            <h1 class="d-xl-flex align-items-xl-center" style="color: #3a5795;display: inline;">Connect to our services<i class="fa fa-caret-right d-xl-flex align-items-xl-center" style="padding: 0px 20px;color: #3a5795;"></i></h1>
+            <div class="flex-column flex-sm-row" style="display: flex;"><a class="icon-footer" href="#" style="background-color: #e2edee;margin-left: 20px;"><span><i class="fa fa-facebook"></i></span></a><a class="icon-footer" href="#" style="background-color: #e2edee;margin-left: 20px;"><span><i class="fa fa-linkedin-square"></i></span></a>
+                <a
+                    class="icon-footer" href="#" style="background-color: #e2edee;margin-left: 20px;"><span><i class="fa fa-youtube-play"></i></span></a>
+            </div>
+        </div>
+    </div>
     <footer class="page-footer dark">
         <div class="container">
             <div class="row">
@@ -174,6 +191,7 @@
             <p class="footer-copyright">© 2020 Copyright</p>
         </div>
     </footer>
+    <div style="border-top: 1px solid #006b85;display: flex;"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
