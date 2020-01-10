@@ -455,3 +455,13 @@ div .container-fluid {
   }
 }
 
+.person-type::hover {
+  transform: scale(1.5);
+  box-shadow: 2px 3px 2px -2px rgba(0,0,0,0.1),-2px 3px 2px -2px rgba(0,0,0,0.1);
+}
+
+.col.d-flex.flex-column.align-items-center.col-md-6.person-type::hover {
+  transform: scale(1.02);
+  box-shadow: 2px 3px 2px -2px rgba(0,0,0,0.1),-2px 3px 2px -2px rgba(0,0,0,0.1);
+}
+
